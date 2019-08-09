@@ -9,7 +9,7 @@ def prime_factors(num):
         print(1)
         print(2)
         print(3)
-        for n in range(4, num+1):
+        for n in range(5, num+1, 2):
             div = 2
             while div <= n:
                 if n == div:
