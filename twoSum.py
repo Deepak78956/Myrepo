@@ -1,21 +1,16 @@
 class Solution:
     def twoSum(self, nums, target):
         """
-        target = 9
-        array = [2,7,8,6,5]
-        result = [0,1] hence 2 +7 = 9
+        Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
-        target = 6
-        array = [3,3,8,9]
-        res = [0,1]
-
-        target = 6
-        array = [3,2,3,8,9]
-        res = [0,2]
-
-        target = 0
-        array = [3,0,6,0,8,9]
-        res = [1,3]
+        You may assume that each input would have exactly one solution, and you may not use the same element twice.
+        
+        Example:
+        
+        Given nums = [2, 7, 11, 15], target = 9,
+        
+        Because nums[0] + nums[1] = 2 + 7 = 9,
+        return [0, 1].
         """
         h = {}
         for i, num in enumerate(nums):
