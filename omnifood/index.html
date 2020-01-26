@@ -8,31 +8,37 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/vendors/css/animate.css">
     <script src="https://use.fontawesome.com/0309fb8872.js"></script>
     <title>Omnifood</title>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="sticky">
         <div class="row">
           <img
             src="/resources/css/img/logo-white.png"
             alt="Image not found"
             class="logo"
           />
+          <img
+            src="/resources/css/img/logo.png"
+            alt="Image not found"
+            class="logo-black"
+          />
 
           <ul class="main-nav">
             <li>
-              <a href="#">Food delivery</a>
+              <a href="#Features">Food delivery</a>
             </li>
             <li>
-              <a href="#">How it works</a>
+              <a href="#Work">How it works</a>
             </li>
             <li>
-              <a href="#">Our cities</a>
+              <a href="#Cities">Our cities</a>
             </li>
             <li>
-              <a href="#">Sign up</a>
+              <a href="#Join">Sign up</a>
             </li>
           </ul>
         </div>
@@ -42,11 +48,11 @@
           Goodbye junk food. <br />
           Hello super healthy meals.
         </h1>
-        <a href="#" class="btn btn-full">I'm hungry</a>
-        <a href="#" class="btn btn-ghost">Show me more</a>
+        <a href="#" class="btn btn-full js--scrolltoplans">I'm hungry</a>
+        <a href="#" class="btn btn-ghost js--scrolltofea">Show me more</a>
       </div>
     </header>
-    <section class="Features-section">
+    <section class="Features-section js--section-features" id="Features">
       <div class="row">
         <h2>Get food fast not fast food.</h2>
         <p class="long-para">
@@ -55,7 +61,7 @@
           were really good at it, we promise!
         </p>
       </div>
-      <div class="row">
+      <div class="row ws-wp-1">
         <div class="box col span-1-of-4">
           <i
             class="icon-big fa fa-calendar-check-o fa-3x"
@@ -151,7 +157,7 @@
         </li>
       </ul>
     </section>
-    <section class="steps-section">
+    <section class="steps-section" id="Work">
       <div class="row">
         <h2>
           How it works - Simple as 1, 2, 3
@@ -160,7 +166,7 @@
       <div class="row">
         <div class="col span-1-of-2 steps-box">
           <img
-            class="app-screen"
+            class="app-screen ws-wp-2"
             src="/Omnifood Contents/app-iPhone.png"
             alt=""
           />
@@ -196,13 +202,13 @@
         </div>
       </div>
     </section>
-    <section class="cities-section">
+    <section class="cities-section" id="Cities">
       <div class="row">
         <h2>
           We're currently in these cities 
        </h2>
       </div>
-      <div class="row">
+      <div class="row ws-wp-3">
         <div class="col span-1-of-4 cities">
           <img src="/Omnifood Contents/berlin.jpg" alt="">
           <h3>BERLIN</h3>
@@ -293,7 +299,7 @@
         </div>
       </div>
     </section>
-    <section class="section-pricing">
+    <section class="section-pricing js--section-plans" id="Join">
       <div class="row">
         <h2>
           Start eating healthy today
@@ -301,7 +307,7 @@
       </div>
       <div class="row">
         <div class="col span-1-of-3">
-          <div class="price-box">
+          <div class="price-box ws-wp-4">
             
             <div>
               <h3>premium</h3>
@@ -458,9 +464,11 @@
         </p>
         <p>
           Made with <i class="fa fa-heart" aria-hidden="true"></i> by <span>Deepak</span>
-
         </p>
       </div>
     </footer>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/vendors/js/jquery.waypoints.min.js"></script>
+    <script src="/resources/js/script.js"></script>
 </html>
