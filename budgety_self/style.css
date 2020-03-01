@@ -19,6 +19,14 @@ body {
   position: relative;
 }
 
+.red {
+  color: #FF5049 !important;
+}
+
+.red-focus:focus {
+  border: 2px solid #FF5049 !important;
+}
+
 .upper {
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url(markus-spiske-5gGcn2PRrtc-unsplash.jpg);
@@ -119,6 +127,7 @@ body {
   margin-right: 10px;
   color: inherit;
 }
+
 
 .textBox,
 .textBoxValue {
