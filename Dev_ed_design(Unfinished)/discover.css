@@ -1,0 +1,56 @@
+.discover-page {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.title-discover {
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+.title-container {
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 130px;
+    background-color: #202027;
+    padding: 20px;
+}
+
+.icon-name {
+    text-align: center;
+}
+
+.main-icon {
+    height: 48px;
+}
+
+.para-discover {
+    font-size: 28px;
+}
+
+.left-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-sec,
+.cover {
+    height: 365px;
+}
+
+.left-sec {
+    height: 350px;
+}
